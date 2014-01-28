@@ -14,8 +14,8 @@ namespace Website
         {
             if (!IsPostBack)
             {
-                Insert();
-                Response.Write(Get().Count);
+                Response.Write(Insert());
+                //Response.Write(Get().Count);
             }
         }
 
